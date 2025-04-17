@@ -7,6 +7,34 @@ namespace Test
         static void Main(string[] args)
         {
             Welcome();
+
+            bool running = true;
+            while (running)
+            {
+                Console.WriteLine("-----------------------------------------------------------------------------------------");
+                Console.WriteLine("What is your name?");
+                Console.WriteLine("-----------------------------------------------------------------------------------------\n");
+                string name = Console.ReadLine();
+                if (name.Any(char.IsDigit) || name.Any(char.IsPunctuation))
+                {
+                    Console.WriteLine("-----------------------------------------------------------------------------------------");
+                    Console.WriteLine("Please do not use special symbols or numbers in your name");
+                    Console.WriteLine("-----------------------------------------------------------------------------------------\n");
+                }
+                else if (name.Equals(""))
+                {
+                    Console.WriteLine("-----------------------------------------------------------------------------------------");
+                    Console.WriteLine("I require a name to know how to address you.");
+                    Console.WriteLine("-----------------------------------------------------------------------------------------\n");
+                }
+
+                else
+                {
+                    Console.WriteLine("\n-----------------------------------------------------------------------------------------");
+                    Console.WriteLine($"Nice to meet you {name}");
+                    Console.WriteLine("-----------------------------------------------------------------------------------------");
+                }
+            }
         }
 
         public static void Welcome()
