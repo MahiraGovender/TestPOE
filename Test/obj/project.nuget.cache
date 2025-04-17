@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "AlyL4Fo1ftA=",
+  "dgSpecHash": "sz+SVdoET08=",
   "success": true,
   "projectFilePath": "D:\\Uni\\source\\PROG\\POE\\Part 1\\Test\\Test\\Test.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\kaioc\\.nuget\\packages\\system.windows.extensions\\9.0.4\\system.windows.extensions.9.0.4.nupkg.sha512"
+  ],
   "logs": []
 }
