@@ -61,11 +61,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Uni\\source\\PROG\\POE\\Part 1\\Test\\Test\\Test.csproj",
+      "projectUniqueName": "D:\\Uni\\Work\\PROG\\TestPOE\\Test\\Test.csproj",
       "projectName": "Test",
-      "projectPath": "D:\\Uni\\source\\PROG\\POE\\Part 1\\Test\\Test\\Test.csproj",
+      "projectPath": "D:\\Uni\\Work\\PROG\\TestPOE\\Test\\Test.csproj",
       "packagesPath": "C:\\Users\\kaioc\\.nuget\\packages\\",
-      "outputPath": "D:\\Uni\\source\\PROG\\POE\\Part 1\\Test\\Test\\obj\\",
+      "outputPath": "D:\\Uni\\Work\\PROG\\TestPOE\\Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
